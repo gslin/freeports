@@ -7,7 +7,7 @@
 
 PORTNAME=	ffmpeg
 PORTVERSION=	2008.06.14.13767
-CATEGORIES=	multimedia
+CATEGORIES=	free
 MASTER_SITES=	http://files.gslin.org/Software/
 
 MAINTAINER=	gslin@gslin.org
