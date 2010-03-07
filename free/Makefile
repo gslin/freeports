@@ -5,3 +5,5 @@
     VALID_CATEGORIES+=	free
 
     SUBDIR += ffmpeg
+
+.include <bsd.port.subdir.mk>
