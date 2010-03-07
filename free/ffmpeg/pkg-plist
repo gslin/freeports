@@ -1,0 +1,59 @@
+@comment $FreeBSD$
+bin/ffmpeg
+bin/ffplay
+bin/ffserver
+include/libavcodec/avcodec.h
+include/libavcodec/opt.h
+include/libavdevice/avdevice.h
+include/libavformat/avformat.h
+include/libavformat/avio.h
+include/libavformat/rtsp.h
+include/libavformat/rtspcodes.h
+include/libavutil/adler32.h
+include/libavutil/avstring.h
+include/libavutil/avutil.h
+include/libavutil/base64.h
+include/libavutil/common.h
+include/libavutil/crc.h
+include/libavutil/fifo.h
+include/libavutil/intfloat_readwrite.h
+include/libavutil/log.h
+include/libavutil/lzo.h
+include/libavutil/mathematics.h
+include/libavutil/md5.h
+include/libavutil/mem.h
+include/libavutil/random.h
+include/libavutil/rational.h
+include/libavutil/sha1.h
+lib/libavcodec.a
+lib/libavcodec.so
+lib/libavcodec.so.51
+lib/libavcodec.so.51.57.2
+lib/libavdevice.a
+lib/libavdevice.so
+lib/libavdevice.so.52
+lib/libavdevice.so.52.0.0
+lib/libavformat.a
+lib/libavformat.so
+lib/libavformat.so.52
+lib/libavformat.so.52.16.0
+lib/libavutil.a
+lib/libavutil.so
+lib/libavutil.so.49
+lib/libavutil.so.49.7.0
+lib/vhook/drawtext.so
+lib/vhook/fish.so
+lib/vhook/imlib2.so
+lib/vhook/null.so
+lib/vhook/ppm.so
+lib/vhook/watermark.so
+libdata/pkgconfig/libavcodec.pc
+libdata/pkgconfig/libavdevice.pc
+libdata/pkgconfig/libavformat.pc
+libdata/pkgconfig/libavutil.pc
+@dirrmtry libdata/pkgconfig
+@dirrmtry lib/vhook
+@dirrmtry include/libavutil
+@dirrmtry include/libavformat
+@dirrmtry include/libavdevice
+@dirrmtry include/libavcodec
