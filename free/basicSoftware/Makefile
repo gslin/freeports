@@ -4,7 +4,7 @@
 #
 
 PORTNAME=	basicSoftware
-PORTVERSION=	1.0
+PORTVERSION=	1.1
 CATEGORIES=	free
 MASTER_SITES=	#
 DISTFILES=	#
@@ -14,6 +14,7 @@ COMMENT=	Basic software meta port
 
 RUN_DEPENDS=	${LOCALBASE}/sbin/mtr:${PORTSDIR}/net/mtr \
 		lftp>=0:${PORTSDIR}/ftp/lftp \
+		most>=0:${PORTSDIR}/sysutils/most \
 		p5-WebService-NoPaste>=0:${PORTSDIR}/www/p5-WebService-NoPaste \
 		portmaster>=0:${PORTSDIR}/ports-mgmt/portmaster \
 		rsync>=0:${PORTSDIR}/net/rsync \
