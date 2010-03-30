@@ -2,6 +2,7 @@
 #
     COMMENT = Custom Ports of FreeBSD
 
+    SUBDIR += basicSoftware
     SUBDIR += ffmpeg
     SUBDIR += vimConf
 
