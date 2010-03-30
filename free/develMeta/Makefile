@@ -7,7 +7,7 @@ PORTNAME=	develMeta
 PORTVERSION=	1.0
 CATEGORIES=	free
 MASTER_SITES=	#
-DISTNAME=	#
+DISTFILES=	#
 
 MAINTAINER=	gslin@gslin.org
 COMMENT=	Development meta port
