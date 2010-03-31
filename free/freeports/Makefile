@@ -4,7 +4,7 @@
 #
 
 PORTNAME=	freeports
-PORTVERSION=	1.1
+PORTVERSION=	1.2
 CATEGORIES=	free
 MASTER_SITES=	#
 DISTFILES=	#
@@ -12,12 +12,18 @@ DISTFILES=	#
 MAINTAINER=	gslin@gslin.org
 COMMENT=	FreePorts bootstrap script and cron job
 
+BUILD_DEPENDS=	git>=0:${PORTSDIR}/devel/git
 RUN_DEPENDS=	git>=0:${PORTSDIR}/devel/git
 
 NO_BUILD=	yes
+NO_PACKAGE=	yes
 
 do-install:
 	${INSTALL_SCRIPT} ${FILESDIR}/999.updateFreePorts \
 		${PREFIX}/etc/periodic/daily/999.updateFreePorts
+	${LN} -s /var/db/freeports/free ${PORTSDIR}/free || ${TRUE}
+
+post-install:
+	${SH} ${PREFIX}/etc/periodic/daily/999.updateFreePorts
 
 .include <bsd.port.mk>

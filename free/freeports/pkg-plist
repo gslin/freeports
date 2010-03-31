@@ -1,4 +1,5 @@
 etc/periodic/daily/999.updateFreePorts
-@cwd /var/db
-@unexec /bin/rm -fr freeports
+@cwd /
+@unexec rm /usr/ports/free || true
+@unexec rm -fr /var/db/freeports
 @cwd
