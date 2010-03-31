@@ -1,0 +1,4 @@
+etc/periodic/daily/999.updateFreePorts
+@cwd /var/db
+@unexec /bin/rm -fr freeports
+@cwd
