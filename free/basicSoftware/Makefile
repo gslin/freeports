@@ -4,7 +4,7 @@
 #
 
 PORTNAME=	basicSoftware
-PORTVERSION=	1.2
+PORTVERSION=	1.2.1
 CATEGORIES=	free
 MASTER_SITES=	#
 DISTFILES=	#
@@ -17,7 +17,7 @@ RUN_DEPENDS=	${LOCALBASE}/sbin/mtr:${PORTSDIR}/net/mtr \
 		lftp>=0:${PORTSDIR}/ftp/lftp \
 		most>=0:${PORTSDIR}/sysutils/most \
 		p5-WebService-NoPaste>=0:${PORTSDIR}/www/p5-WebService-NoPaste \
-		pigz>=0:${PORTSDIR}/archives/pigz \
+		pigz>=0:${PORTSDIR}/archivers/pigz \
 		pkg_rmleave>=0:${PORTSDIR}/ports-mgmt/pkg_rmleaves \
 		portmaster>=0:${PORTSDIR}/ports-mgmt/portmaster \
 		pstree>=0:${PORTSDIR}/sysutils/pstree \
