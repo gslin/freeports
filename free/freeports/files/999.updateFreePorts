@@ -5,8 +5,8 @@ GIT=/usr/local/bin/git
 FREEPORTSDIR=/var/db/freeports
 
 if [ -d "${FREEPORTSDIR}" ]; then
-    ${GIT} clone http://github.com/gslin/freeports.git "${FREEPORTSDIR}"
-else
     cd "${FREEPORTSDIR}"
     ${GIT} pull -f -v
+else
+    ${GIT} clone http://github.com/gslin/freeports.git "${FREEPORTSDIR}"
 fi
