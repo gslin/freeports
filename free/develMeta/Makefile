@@ -4,7 +4,7 @@
 #
 
 PORTNAME=	develMeta
-PORTVERSION=	1.1
+PORTVERSION=	1.2
 CATEGORIES=	free
 MASTER_SITES=	#
 DISTFILES=	#
@@ -13,6 +13,7 @@ MAINTAINER=	gslin@gslin.org
 COMMENT=	Development meta port
 
 RUN_DEPENDS=	cmake>=0:${PORTSDIR}/devel/cmake \
+		easygit>=0:${PORTSDIR}/devel/easygit \
 		git>=0:${PORTSDIR}/devel/git \
 		gmake>=0:${PORTSDIR}/devel/gmake \
 		mercurial>=0:${PORTSDIR}/devel/mercurial \
