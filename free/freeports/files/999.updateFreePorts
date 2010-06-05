@@ -14,4 +14,4 @@ else
     ${GIT} clone http://github.com/gslin/freeports.git "${FREEPORTSDIR}"
 fi
 
-${PORTSNAP} -I -l "${PORTSDIR}/free/INDEX" update
+# ${PORTSNAP} -I -l "${PORTSDIR}/free/INDEX" update
