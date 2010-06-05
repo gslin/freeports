@@ -1,12 +1,17 @@
 #!/bin/sh
 
 GIT=/usr/local/bin/git
+PORTSNAP=/usr/sbin/portsnap
 
 FREEPORTSDIR=/var/db/freeports
+PORTSDIR=/usr/ports
 
 if [ -d "${FREEPORTSDIR}" ]; then
     cd "${FREEPORTSDIR}"
     ${GIT} pull -f -v
 else
+    # Directory not exists, initialize...
     ${GIT} clone http://github.com/gslin/freeports.git "${FREEPORTSDIR}"
 fi
+
+${PORTSNAP} -I -l "${PORTSDIR}/free/INDEX" update
