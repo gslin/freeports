@@ -4,7 +4,7 @@
 #
 
 PORTNAME=	basicSoftware
-PORTVERSION=	1.4
+PORTVERSION=	1.5
 CATEGORIES=	free
 MASTER_SITES=	#
 DISTFILES=	#
@@ -15,9 +15,9 @@ COMMENT=	Basic software meta port
 RUN_DEPENDS=	${LOCALBASE}/sbin/mtr:${PORTSDIR}/net/mtr \
 		free-vimConf>=0:${PORTSDIR}/free/vimConf \
 		gist>=0:${PORTSDIR}/www/gist \
+		hwstat>=0:${PORTSDIR}/sysutils/hwstat \
 		lftp>=0:${PORTSDIR}/ftp/lftp \
 		most>=0:${PORTSDIR}/sysutils/most \
-		p5-WebService-NoPaste>=0:${PORTSDIR}/www/p5-WebService-NoPaste \
 		pigz>=0:${PORTSDIR}/archivers/pigz \
 		pkg_rmleave>=0:${PORTSDIR}/ports-mgmt/pkg_rmleaves \
 		portmaster>=0:${PORTSDIR}/ports-mgmt/portmaster \
