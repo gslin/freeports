@@ -4,7 +4,7 @@
 #
 
 PORTNAME=	develMeta
-PORTVERSION=	1.6
+PORTVERSION=	1.7
 CATEGORIES=	free
 MASTER_SITES=	#
 DISTFILES=	#
@@ -25,6 +25,7 @@ RUN_DEPENDS=	cmake>=0:${PORTSDIR}/devel/cmake \
 		p5-Devel-Cover>=0:${PORTSDIR}/devel/p5-Devel-Cover \
 		p5-Moose>=0:${PORTSDIR}/devel/p5-Moose \
 		p5-Mouse>=0:${PORTSDIR}/devel/p5-Mouse \
+		p5-local-lib>=0:${PORTSDIR}/devel/p5-local-lib \
 		scons>=0:${PORTSDIR}/devel/scons \
 		subversion>=0:${PORTSDIR}/devel/subversion \
 		tig>=0:${PORTSDIR}/devel/tig
