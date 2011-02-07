@@ -4,7 +4,7 @@
 #
 
 PORTNAME=	develMeta
-PORTVERSION=	1.7
+PORTVERSION=	1.8
 CATEGORIES=	free
 MASTER_SITES=	#
 DISTFILES=	#
@@ -12,8 +12,10 @@ DISTFILES=	#
 MAINTAINER=	gslin@gslin.org
 COMMENT=	Development meta port
 
-RUN_DEPENDS=	cmake>=0:${PORTSDIR}/devel/cmake \
+RUN_DEPENDS=	bazaar-ng>=0:${PORTSDIR}/devel/bazaar-ng \
+		cmake>=0:${PORTSDIR}/devel/cmake \
 		cpan-upload>=0:${PORTSDIR}/devel/cpan-upload \
+		cproto>=0:${PORTSDIR}/devel/cproto \
 		ctags>=0:${PORTSDIR}/devel/ctags \
 		easygit>=0:${PORTSDIR}/devel/easygit \
 		git>=0:${PORTSDIR}/devel/git \
