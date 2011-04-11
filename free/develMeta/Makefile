@@ -4,7 +4,7 @@
 #
 
 PORTNAME=	develMeta
-PORTVERSION=	1.8
+PORTVERSION=	1.9
 CATEGORIES=	free
 MASTER_SITES=	#
 DISTFILES=	#
@@ -21,6 +21,7 @@ RUN_DEPENDS=	bazaar-ng>=0:${PORTSDIR}/devel/bazaar-ng \
 		git>=0:${PORTSDIR}/devel/git \
 		gmake>=0:${PORTSDIR}/devel/gmake \
 		mercurial>=0:${PORTSDIR}/devel/mercurial \
+		nasm>=0:${PORTSDIR}/devel/nasm \
 		p5-AnyEvent>=0:${PORTSDIR}/devel/p5-AnyEvent \
 		p5-AnyEvent-HTTP>=0:${PORTSDIR}/www/p5-AnyEvent-HTTP \
 		p5-Coro>=0:${PORTSDIR}/devel/p5-Coro \
