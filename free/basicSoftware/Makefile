@@ -4,7 +4,7 @@
 #
 
 PORTNAME=	basicSoftware
-PORTVERSION=	1.5
+PORTVERSION=	1.6
 CATEGORIES=	free
 MASTER_SITES=	#
 DISTFILES=	#
@@ -26,8 +26,7 @@ RUN_DEPENDS=	${LOCALBASE}/sbin/mtr:${PORTSDIR}/net/mtr \
 		screen>=0:${PORTSDIR}/sysutils/screen \
 		tmux>=0:${PORTSDIR}/sysutils/tmux \
 		w3m-m17n>=0:${PORTSDIR}/www/w3m-m17n \
-		wget>=0:${PORTSDIR}/ftp/wget \
-		xz>=0:${PORTSDIR}/archivers/xz
+		wget>=0:${PORTSDIR}/ftp/wget
 
 NO_BUILD=	yes
 
