@@ -4,7 +4,7 @@
 #
 
 PORTNAME=	freeports
-PORTVERSION=	1.2.2
+PORTVERSION=	1.2.3
 CATEGORIES=	free
 MASTER_SITES=	#
 DISTFILES=	#
@@ -19,8 +19,8 @@ NO_BUILD=	yes
 NO_PACKAGE=	yes
 
 do-install:
-	${INSTALL_SCRIPT} ${FILESDIR}/999.updateFreePorts \
-		${PREFIX}/etc/periodic/daily/999.updateFreePorts
+	${MKDIR} ${PREFIX}/etc/periodic/daily
+	${INSTALL_SCRIPT} ${FILESDIR}/999.updateFreePorts ${PREFIX}/etc/periodic/daily/
 	${LN} -s /var/db/freeports/free ${PORTSDIR}/free || ${TRUE}
 
 post-install:

@@ -1,5 +1,6 @@
 etc/periodic/daily/999.updateFreePorts
+@dirrmtry etc/periodic/daily
+@dirrmtry etc/periodic
 @cwd /
 @unexec rm /usr/ports/free || true
 @unexec rm -fr /var/db/freeports
-@cwd
