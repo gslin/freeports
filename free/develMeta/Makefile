@@ -4,7 +4,7 @@
 #
 
 PORTNAME=	develMeta
-PORTVERSION=	1.10
+PORTVERSION=	1.11
 CATEGORIES=	free
 MASTER_SITES=	#
 DISTFILES=	#
@@ -36,6 +36,7 @@ RUN_DEPENDS=	bazaar-ng>=0:${PORTSDIR}/devel/bazaar-ng \
 
 NO_BUILD=	yes
 USE_PERL5_RUN=	yes
+USE_PHP=	yes
 USE_PYTHON=	yes
 USE_RUBY=	yes
 
