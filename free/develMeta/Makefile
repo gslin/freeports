@@ -4,7 +4,7 @@
 #
 
 PORTNAME=	develMeta
-PORTVERSION=	1.9
+PORTVERSION=	1.10
 CATEGORIES=	free
 MASTER_SITES=	#
 DISTFILES=	#
@@ -28,6 +28,7 @@ RUN_DEPENDS=	bazaar-ng>=0:${PORTSDIR}/devel/bazaar-ng \
 		p5-Devel-Cover>=0:${PORTSDIR}/devel/p5-Devel-Cover \
 		p5-Moose>=0:${PORTSDIR}/devel/p5-Moose \
 		p5-Mouse>=0:${PORTSDIR}/devel/p5-Mouse \
+		p5-ack>=0:${PORTSDIR}/textproc/p5-ack \
 		p5-local-lib>=0:${PORTSDIR}/devel/p5-local-lib \
 		scons>=0:${PORTSDIR}/devel/scons \
 		subversion>=0:${PORTSDIR}/devel/subversion \
