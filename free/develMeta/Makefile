@@ -1,7 +1,5 @@
-# New ports collection makefile for:	develMeta
-# Date created:		2010-03-31
-# Whom:			Gea-Suan Lin <gslin@gslin.org>
-#
+# Created by: Gea-Suan Lin <gslin@gslin.org>
+# $FreeBSD$
 
 PORTNAME=	develMeta
 PORTVERSION=	1.11.1
