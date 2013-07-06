@@ -1,9 +1,5 @@
-# New ports collection makefile for:	ffmpeg
-# Date created:		2007-10-14
-# Whom:			gslin <gslin@gslin.org>
-#
+# Created by: gslin <gslin@gslin.org>
 # $FreeBSD$
-#
 
 PORTNAME=	ffmpeg
 PORTVERSION=	2008.06.14.13767
