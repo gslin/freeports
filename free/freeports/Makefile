@@ -1,7 +1,5 @@
-# New ports collection makefile for:	freeports
-# Date created:		2010-03-31
-# Whom:			Gea-Suan Lin <gslin@gslin.org>
-#
+# Created by: Gea-Suan Lin <gslin@gslin.org>
+# $FreeBSD$
 
 PORTNAME=	freeports
 PORTVERSION=	1.2.3

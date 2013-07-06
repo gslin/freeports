@@ -1,7 +1,5 @@
-# New ports collection makefile for:	vimConf
-# Date created:		2010-03-31
-# Whom:			Gea-Suan Lin <gslin@gslin.org>
-#
+# Created by: Gea-Suan Lin <gslin@gslin.org>
+# $FreeBSD$
 
 PORTNAME=	vimConf
 PORTVERSION=	1.0
