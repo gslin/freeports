@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	develMeta
-PORTVERSION=	1.11.1
+PORTVERSION=	1.11.2
 CATEGORIES=	free
 MASTER_SITES=	#
 DISTFILES=	#
@@ -10,7 +10,7 @@ DISTFILES=	#
 MAINTAINER=	gslin@gslin.org
 COMMENT=	Development meta port
 
-RUN_DEPENDS=	bazaar>=0:${PORTSDIR}/devel/bazaar \
+RUN_DEPENDS=	bzr>=0:${PORTSDIR}/devel/bzr \
 		cmake>=0:${PORTSDIR}/devel/cmake \
 		cpan-upload>=0:${PORTSDIR}/devel/cpan-upload \
 		cproto>=0:${PORTSDIR}/devel/cproto \
