@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	basicSoftware
-PORTVERSION=	1.7
+PORTVERSION=	1.8
 CATEGORIES=	free
 MASTER_SITES=	#
 DISTFILES=	#
@@ -24,7 +24,7 @@ RUN_DEPENDS=	${LOCALBASE}/sbin/mtr:${PORTSDIR}/net/mtr \
 		screen>=0:${PORTSDIR}/sysutils/screen \
 		sudo>=0:${PORTSDIR}/security/sudo \
 		tmux>=0:${PORTSDIR}/sysutils/tmux \
-		w3m-m17n>=0:${PORTSDIR}/www/w3m-m17n \
+		w3m>=0:${PORTSDIR}/www/w3m \
 		wget>=0:${PORTSDIR}/ftp/wget
 
 NO_BUILD=	yes
