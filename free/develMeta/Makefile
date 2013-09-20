@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	develMeta
-PORTVERSION=	1.11.3
+PORTVERSION=	1.12
 CATEGORIES=	free
 MASTER_SITES=	#
 DISTFILES=	#
@@ -19,6 +19,7 @@ RUN_DEPENDS=	ack>=0:${PORTSDIR}/textproc/ack \
 		easygit>=0:${PORTSDIR}/devel/easygit \
 		git>=0:${PORTSDIR}/devel/git \
 		gmake>=0:${PORTSDIR}/devel/gmake \
+		jq>=0:${PORTSDIR}/textproc/jq \
 		mercurial>=0:${PORTSDIR}/devel/mercurial \
 		nasm>=0:${PORTSDIR}/devel/nasm \
 		p5-AnyEvent>=0:${PORTSDIR}/devel/p5-AnyEvent \
