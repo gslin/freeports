@@ -15,6 +15,7 @@ RUN_DEPENDS=	git>=0:${PORTSDIR}/devel/git
 
 NO_BUILD=	yes
 NO_PACKAGE=	yes
+NO_STAGE=	yes
 
 do-install:
 	${MKDIR} ${PREFIX}/etc/periodic/daily
