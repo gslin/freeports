@@ -18,6 +18,6 @@ NO_BUILD=	yes
 PLIST_FILES=	share/vim/vimrc
 
 do-install:
-	${INSTALL_DATA} ${FILESDIR}/vimrc ${PREFIX}/share/vim/vimrc
+	${INSTALL_DATA} ${FILESDIR}/vimrc ${STAGEDIR}${PREFIX}/share/vim/vimrc
 
 .include <bsd.port.mk>
