@@ -1,0 +1,2 @@
+#!/bin/sh
+cd /usr/ports && /usr/sbin/portsnap cron update > /dev/null 2>&1
